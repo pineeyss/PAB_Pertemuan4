@@ -7,12 +7,12 @@
 #
 
 #### main.dart
-Kode ini adalah file utama (`main.dart`) yang menjalankan aplikasi Flutter dengan `ChangeNotifierProvider` untuk menyediakan `CartModel` ke seluruh aplikasi. `MyApp` mengatur konfigurasi `MaterialApp` seperti tema dan halaman awal, yaitu `ProductListPage`, sehingga fitur keranjang belanja bisa diakses dan dikelola dari berbagai halaman menggunakan Provider.
+kode ini adalah file utama yang menjalankan aplikasi Flutter dengan `ChangeNotifierProvider` untuk menyediakan `CartModel` ke seluruh aplikasi.
 
 #
 
 #### pubspec.yaml
-Kode ini adalah file `pubspec.yaml` yang berisi konfigurasi proyek Flutter, seperti nama aplikasi, versi, dan batasan SDK. Di bagian `dependencies` ditambahkan package `provider` untuk state management, sedangkan `dev_dependencies` berisi kebutuhan testing dan lints. Opsi `uses-material-design: true` mengaktifkan penggunaan komponen Material Design di aplikasi.
+kode ini berisi konfigurasi proyek Flutter, seperti nama aplikasi, versi, dan batasan SDK.
 
 #
 ## **LIB**
@@ -21,7 +21,7 @@ Kode ini adalah file `pubspec.yaml` yang berisi konfigurasi proyek Flutter, sepe
 kode ini digunakan untuk merepresentasikan satu item di dalam keranjang belanja, di mana setiap CartItem menyimpan satu Product beserta jumlah yang dibeli.
 
 #### B. cart_model.dart
-kode ini berfungs sebagai pengelola state keranjang belanja menggunakan ChangeNotifier pada flutter. data keranjang disimpan dalam bentuk 'Map<String, CartItem>' agar pencarian produk berdasarkan id lebih cepat.
+kode ini berfungs sebagai pengelola state keranjang belanja menggunakan ChangeNotifier pada flutter. data keranjang disimpan dalam bentuk `Map<String, CartItem>` agar pencarian produk berdasarkan id lebih cepat.
 
 #### C. counter_model.dart
 kode ini berfungs sebagai pengelola state keranjang belanja menggunakan ChangeNotifier pada flutter. variabel _count dibuat private untuk menjaga keamanan data, lalu diakses melalui getter count.
