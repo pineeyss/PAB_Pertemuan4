@@ -8,8 +8,6 @@
 
 ## Struktur dan Penjelasan Kode
 
-#
-
 ##### <img width="169" height="22" alt="Tangkapan Layar 2026-02-25 pukul 11 26 01" src="https://github.com/user-attachments/assets/01a09698-146c-458d-8d32-cb43e448e98b" />
 
 ##### pubspec.yaml
